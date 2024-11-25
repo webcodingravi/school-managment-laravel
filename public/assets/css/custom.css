@@ -1,0 +1,47 @@
+.w-4 {
+  width: 1rem;
+}
+.h-4 {
+  height: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+
+.dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.heading{
+  position:relative;
+}
+
+.heading::after{
+  content: '';
+  position:absolute;
+  left:0;
+  display:block;
+  bottom:-10%;
+  height:2px;
+  border-radius:5px;
+  width:2%;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  ;
+  
+}
+
+.form-select:focus{
+  box-shadow:none;
+}
+
